@@ -1,0 +1,118 @@
+:root{
+	--clr: #00423e;
+}
+
+html{
+	min-width: 600px;
+	background: #000000;
+	background-repeat: no-repeat;
+	background-size: auto;
+	height:100vh;
+}
+
+.top-bar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	background: var(--clr);
+	padding: 3px;
+}
+
+.top-bar img{
+	border-radius: 2rem;
+}
+
+.top-bar a{
+	color: #ffffff;
+	font-size: 2rem;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.weekdays{
+	display: flex;
+	width: 100vw;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+.weekdays div{
+	height: 40vh;
+	width: 12vw;
+	color: white;
+	background-color: #212121;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	border: 0.1rem solid white;
+}
+
+.weekdays div:hover{
+	height: 42vh;
+	width: 14vw;
+	background-color: whitesmoke;
+	color: black;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	border: 0.1rem solid black;
+	cursor: pointer;
+}
+
+
+
+#newModalBackDrop{
+	display: flex;
+	width: 40vw;
+	margin: 10vh auto;
+	height: 30vh;
+	background-color: var(--clr);
+	flex-wrap: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+form{
+	background-color: var(--clr);
+	padding: 5px;
+	
+	border-radius: 5px;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+}
+
+
+input[type="text"]{
+	height: 30px;
+	width: 20vw;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	color: black;
+	flex-grow: 1;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+
+}
+
+button{
+	font-size: .5rem;
+	color: #2b2b2b;
+	background-color: white;
+}
+
+button:hover{
+	background-color: lightcoral;
+}
+
+.events{
+	color: white;
+}
+
+.item{
+	height: 40px;
+	background-color: lightblue;
+}
